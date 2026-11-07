@@ -1,0 +1,27 @@
+# Build output
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+build/
+tests/test_hugeint
+
+# MSVC / Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.user
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
